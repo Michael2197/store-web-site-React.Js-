@@ -1,0 +1,93 @@
+<!-- import React, { useEffect, useState } from 'react'
+import axios from 'axios'
+import"bootstrap/dist/css/bootstrap.min.css";
+import { Button , container, cards} from 'bootstrap';
+
+
+export default function About() {
+
+  let[users,setusers] = useState([])
+
+   useEffect(()=>{
+
+    getusers()
+   },[])
+
+
+   function getusers(){
+
+    axios.get("https://fakestoreapi.com/products").then((sorc)=>{
+  
+        setusers(sorc.data)
+    })
+   }
+  
+  return (
+    <>
+
+    {/* <button onClick={getusers}>show the contenint</button> */}
+
+      {users?.map((users)=>
+
+    <div className="Containar">
+      
+      <div className="card" style={{ width: '18rem' }}>
+        <div className="card-title">
+        <img className='card-image' variant="top"  src={users.image} alt='card-img'/>
+
+        <br/>
+        <div className="card-id">id: {users.id}</div>
+        <br/>
+        <div className="card-title"> about :{users.title}</div>
+        <br/>
+        <div className="card-price">price :{users.price}</div>
+        
+        <button className="button">click here</button>
+
+        </div>
+      </div>
+    </div>)}
+      
+    </>
+  )
+  
+} -->
+
+
+<!-- 
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+import Userdetails from './Userdetails'
+import { Link } from 'react-router-dom'
+
+export default function About() {
+  let [users,setusers] = useState([])
+  useEffect(()=>{
+    getdata()
+
+  })
+
+  function getdata(){
+    axios.get("https://jsonplaceholder.typicode.com/users").then((src)=>{
+      setusers(src.data)
+    })
+  }
+  return (
+    <>
+
+    <ul>
+      {users.map((users)=><li><Link to={`/user/${users.id}`}>{users.name}</Link></li>)}
+      
+
+    </ul>
+      
+    </>
+  )
+} -->
+
+
+
+
+
+
+<img src="https://th.bing.com/th/id/R.f6455511fa6d5c2408d42753a84bf371?rik=sIyvBuuronRlfw&riu=http%3a%2f%2fwww.printablee.com%2fpostpic%2f2015%2f04%2fengland-flag_287398.jpg&ehk=VqrUHg%2fQzLSr04K8oK0vZ%2fU7ToPCgv82%2bpzE1%2bzPadU%3d&risl=&pid=ImgRaw&r=0" alt="" />

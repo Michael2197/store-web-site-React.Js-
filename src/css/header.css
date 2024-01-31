@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    padding: 15px;
+
+}
+
+/* start header header-top */
+
+header .header-top {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    height: 4vh;
+    border-bottom: 0.5px solid black;
+    
+}
+
+
+header .header-top .left-side {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: black !important;
+}
+
+header .header-top .left-side select {
+    border: none;
+}
+
+header .header-top .right-side {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}   
+header .header-top .right-side :hover{
+    color: red;
+}
+
+/* start media */
+@media(max-width:991px) {
+
+    header .header-top {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:350px) {
+
+    header .header-top .left-side, 
+    header .header-top .right-side {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+header .header-top .left-side .number{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+header .header-top .right-side .compare{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+header .header-top .right-side .whishlist{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+header .header-top .right-side .login {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+header .header-top .right-side .login a {
+
+    color: black;
+}
+
+
+header .header-top .right-side .login a :hover {
+
+    color: red;
+}
+
+
+/* End header header-top */
+
+
+
+/* start header-buttom */
+
+
+header .header-buttom {
+    position: relative;
+    top: 8px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+
+
+    
+}
+
+header .header-buttom .right-side {
+    display: flex;
+    gap: 15px;
+     font-weight: bold;
+    align-items: center;
+}   
+
+
+header .header-buttom .right-side :hover{
+    color: red;
+}
+header .header-buttom .right-side.home{
+    position: relative;
+ }   
+
+header .header-buttom .right-side .home2{
+    position: absolute;
+   display: flex;
+   left: 50px;
+   flex-direction: column;
+   gap: 20px;
+   z-index: 100;
+}   
+
+header .header-buttom .right-side .search a{
+    color: black;
+}
+header .header-buttom .right-side .Card a{
+    color: black;
+}
+
+@media(max-width:1019px) {
+
+    header .header-buttom {
+        flex-direction: column;
+        align-items: center;
+         gap: 10px;   
+
+
+    }
+}
+@media(max-width:1024px) {
+
+    header .header-buttom .right-side {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+
+    }
+}
+
+@media(max-width:1995px) {
+
+    header .header-buttom .left-side
+     {
+        gap: 0;
+
+    }
+}

@@ -1,0 +1,71 @@
+/* start singlepg css */
+
+.Con{
+    position: relative;
+    background-color: #282c34;
+    left: 220px;
+    width:1700px ;
+    height: 120vh;
+    top: 100px;
+    border-radius: 50px;
+    
+    
+    
+    
+    
+    }
+    
+    
+    .singlepg{
+      position: absolute;
+      color: white;
+    
+      top: 100px;
+      width:500px ;
+      left: 200px;
+      height: auto;
+      font-size: xx-small;
+      overflow: visible;
+      margin: 5px;
+      display: inline-block;
+      flex-direction: column;
+      font-weight: bold;
+    
+    
+    }
+    
+    .tn{
+    position: absolute;
+    top: 1250px;
+    left: 800px;
+    background-color: white;
+    width: 13%;
+    height: 3vh;
+    font-size: large;
+    border-radius: 30px;
+    
+    
+    
+    
+    
+    }
+
+
+    .det{
+      position: absolute;
+      color: white;
+    
+      top: 90px;
+      width:500px ;
+      left: 1000px;
+      height: auto;
+      font-size: large;
+      overflow: visible;
+      margin: 5px;
+      display: inline-block;
+      flex-direction: column;
+      font-weight: bold;
+
+
+    }
+    /* end singlepg css */

@@ -1,0 +1,32 @@
+/* start MAIN page css */
+
+.Carousel{
+    position: absolute;
+    right: 77%;
+    width: max-content;
+    top: -670%;
+    color: black;
+    
+    }
+    .btnn{
+      position: relative;
+      background-color: #FF324D;
+      color: white;
+      font-size: larger;
+      font-weight: bolder;
+      width: 55%;
+      height: 6vh;
+      border: #FF324D;
+      border: 22px black;
+    
+    
+    }
+    
+    .btnn:hover{
+    
+      background-color: transparent;
+      color: #FF324D;
+    
+    }
+
+    /* end MAIN page css */

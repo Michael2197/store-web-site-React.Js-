@@ -1,0 +1,95 @@
+#fotr{
+    position: relative;
+  
+   background-color:#202325 !important;
+    color: white !important;
+   top: 436px; 
+  
+  }
+  
+  
+  .flex{
+  
+    display: flex;
+    left: 80%;
+  }
+  
+  #search{
+  position: relative;
+    background-color: #FF324D;
+    top: 0;
+    height: 15vh;
+  }
+  
+  #bbtn{
+    position: absolute;
+    background-color: #282c34;
+    color: aliceblue;
+    top: 30%;
+    left: 70%;
+    width: 7%;
+    height:4.5vh;
+  
+    
+  }
+  .srh{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 20%;
+    height: 31%;
+  }
+  #srw{
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bold;
+    top: 3vh;
+    width: 100vh;
+    left: 10vh;
+    height: 50%;
+   
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .banne_info{
+  
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    
+  }
+  
+  
+  
+  
+  .banner_img.overlay_bg_40{
+    width: 20%;
+  
+  
+  }
+  .pc{
+    position: relative;
+      width: 250px;
+      right: 35px;
+      height: 25vh;
+      filter:opacity(10px);
+      background-color: black;
+  
+  
+  }
+  .shop_bn_content{
+    position: absolute;
+    top: 20%;
+    color: white;
+    font-weight: bold;
+  
+  }
+  

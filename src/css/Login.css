@@ -1,0 +1,62 @@
+.CONT{
+    position: relative;
+  background-color: #282c34;
+  width: 50%;
+  top: 80px;
+  height: 80vh;
+  left: 520px;
+  
+  }
+  
+  .bdg{
+  
+    position: absolute;
+    top: 10%;
+    color: white;
+    font-weight: bold;
+    left: 5%;
+  
+  
+  }
+  
+  #bg2{
+  
+    background-color: #FF324D !important;
+  }
+  
+  .bttn{
+    position: relative;
+    background-color: #FF324D;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    left: 46%;
+    top: 333px;
+    width: 12%;
+    height: 4vh;
+    border: #FF324D;
+  }
+  
+  .bttn:hover{
+    background-color: darkred;
+  
+  
+  }
+  
+  
+  .form-check{
+  position: relative;
+  left: 11px;
+      top: 1px;
+  
+  }
+  
+  
+    .mb-3{
+      position: relative;
+    left: 26%;
+    width: 50%;
+    top: 250px ;
+    color: aliceblue;
+    
+    }
